@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georama', sans-serif;
+
+}
+.main {
+    height: 100vh;
+    background-color: #333;
+}
+.body, .mask {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    font-size: 64px;
+    color: #afa18f;
+    line-height: 66px;
+}
+
+span {
+    color: #ec4e39;
+}
+
+p {
+    width: 1000px;
+}
+
+.mask {
+    position:absolute;
+    mask-image: url(/public/Ellipse\ 1.svg);
+    background: #ec4e39;
+    mask-repeat: no-repeat;
+    mask-position: 20%;
+    mask-size: 20px;
+    color: black;
+
+}
